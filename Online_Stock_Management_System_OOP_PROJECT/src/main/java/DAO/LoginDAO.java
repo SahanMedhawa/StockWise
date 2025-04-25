@@ -35,6 +35,7 @@ public class LoginDAO {
         return status;
     }
 
+    //comment check 2
     private void printSQLException(SQLException ex) {
         for (Throwable e: ex) {
             if (e instanceof SQLException) {
@@ -50,4 +51,11 @@ public class LoginDAO {
             }
         }
     }
+    
+    //this is for find github push bug 
+    private void print() {
+    	System.out.println("Github push error Check");
+    }
+    
+
 }

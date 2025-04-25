@@ -26,6 +26,7 @@ public class SupplierDAO {
 	public SupplierDAO() {
 	}
 
+	//comment check
 	protected Connection getConnection() {
 		Connection connection = null;
 		try {
